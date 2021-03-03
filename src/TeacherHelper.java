@@ -19,6 +19,7 @@ public class TeacherHelper {
 			System.out.println("1 - Calcular salário");
 			System.out.println("2 - Calcular média de notas dos alunos");
 			System.out.println("3 - Exibir a motivação do dia!");
+			System.out.println("3 - Sair do sistema!")
 			opcao = leitor.nextInt();
 			
 			switch (opcao) {
@@ -57,7 +58,7 @@ public class TeacherHelper {
 				break;
 			case 3:
 				
-				switch(gerador.nextInt(7)) {
+				switch(gerador.nextInt(6)+1) {
 				case 1:
 					System.out.println("Você é um professor incrível!");
 					break;
